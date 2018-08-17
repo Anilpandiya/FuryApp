@@ -1,0 +1,19 @@
+<ion-content padding>
+  <ion-list>
+      <int-phone-prefix [(ngModel)]="phoneNumber"></int-phone-prefix>
+    <ion-item>
+      <ion-label floating>Country :</ion-label>
+      <int-phone-prefix [(ngModel)]="phoneNumber"></int-phone-prefix>
+    </ion-item>
+    <ion-item>
+      <ion-label floating>Enter Mobile Number :</ion-label>
+      <ion-input color="primary"></ion-input>
+    </ion-item>
+
+
+    <ion-item>
+      <button ion-button (click)="switch()">Get OTP</button>
+    </ion-item>
+
+  </ion-list>
+</ion-content>
